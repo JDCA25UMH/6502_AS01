@@ -1,0 +1,3 @@
+LDA $FF
+EOR #$0F
+STA $40
