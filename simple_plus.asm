@@ -1,0 +1,8 @@
+LDA #2
+STA $01
+CLC
+LDA #2
+STA $02
+ADC $01
+STA $03
+BRK
