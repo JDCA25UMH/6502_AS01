@@ -1,0 +1,9 @@
+LDA #18
+STA $01
+
+LDA #12
+STA $02
+CMP $01
+
+LDA $02
+ADC $01
